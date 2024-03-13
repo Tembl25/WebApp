@@ -1,0 +1,26 @@
+.brands{
+    padding: 40px 0 35px;
+}
+
+.brands_list{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.brands_list li {
+    width: 100px;
+    height: 100px;
+}
+
+.brands_list li img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+.brands_title{
+    border : 3px solid #000;
+    border-radius: 10px;
+}

@@ -1,4 +1,5 @@
 import logoImg from './../../img/crown-regular-48.png';
+import avatarImg from './../../img/avatar.png';
 import './header.css';
 function Header () {
 
@@ -18,6 +19,9 @@ function Header () {
                             <li><a href="#">Сериалы</a></li>
                             <li><a href="#">Новости</a></li>
                             <li><a href="#">О нас</a></li>
+                            <div className="header_avatar">
+                                <li><a href="#"><img src={avatarImg} alt="avatar" /></a></li>
+                            </div>
                         </ul>
                     </div>
                </div>

@@ -17,6 +17,11 @@
     height: 50px;
 }
 
+.header_avatar{
+    width: 45px;
+    height: 45px;
+}
+
 .header_logo span{
     font-weight: 900;
     font-size: 40px;
