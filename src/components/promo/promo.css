@@ -1,0 +1,31 @@
+.image_overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.banner_image {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.text_overlay {
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text_overlay h2 {
+    margin-bottom: 20px;
+}
+
+.text_overlay p {
+    margin: 0;
+}
