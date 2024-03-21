@@ -1,0 +1,23 @@
+.header_filter select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.5s ease;
+}
+
+.header_filter select:hover,
+.header_filter select:focus {
+    border-color: black;
+}
+
+.header_name span{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    color : black;
+}

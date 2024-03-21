@@ -1,0 +1,45 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Для равномерного распределения карточек */
+}
+
+.product-card {
+    width: calc(20% - 20px); /* Для размещения 5 карточек в линию (20% ширины - 20px отступы) */
+    margin-bottom: 20px;
+    border: 3px solid black; /* Обводка карточки */
+    padding: 20px;
+    border-radius: 10px; /* Округление углов */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.product-card button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-card button:hover {
+    transform: scale(1.07);
+}
+
+.films_title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

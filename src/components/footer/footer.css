@@ -1,0 +1,33 @@
+.footer {
+    background-color: black; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 40px 0; /* Внутренние отступы сверху и снизу */
+    font-weight: bold;
+}
+
+.footer-content {
+    display: flex; /* Располагаем элементы в строку */
+    justify-content: space-between; /* Равномерно распределяем элементы по ширине */
+}
+
+.footer-left {
+    flex-basis: 40%; /* Устанавливаем ширину для левого блока */
+}
+
+.footer-right {
+    text-align: left; /* Выравниваем текст по правому краю */
+    flex-basis: 20%; /* Устанавливаем ширину для правого блока */
+}
+
+h3 {
+    font-size: 20px; /* Размер заголовка */
+}
+
+.footer-bottom {
+    text-align: center; /* Выравниваем текст по центру */
+    margin-top: 20px; /* Отступ сверху */
+}
+.social-icons a {
+    font-size: 24px; /* Увеличиваем размер значков */
+    color: white; /* Задаем белый цвет значков */
+}
