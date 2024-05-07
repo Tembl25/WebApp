@@ -15,14 +15,13 @@ function Header () {
                     </div>
                     <div className="header_nav">
                         <ul>
-                            <li><a href="/">Главная</a></li>
-                            <li><a href="#">Корзина</a></li>
+                            <li><Link to="/">Главная</Link></li>
                             <li><Link to="/filmsPage">Фильмы</Link></li>
-                            <li><a href="#">Сериалы</a></li>
-                            <li><a href="#">Новости</a></li>
-                            <li><a href="#">О нас</a></li>
+                            <li><Link to="/news">Новости</Link></li>
+                            <li><Link to="/about">О нас</Link></li>
+                            <li><Link to="/cart">Корзина</Link></li>
                             <div className="header_avatar">
-                                <li><a href="/login"><img src={avatarImg} alt="avatar" /></a></li>
+                                <li><Link to="/login"><img src={avatarImg} alt="avatar" /></Link></li>
                             </div>
                         </ul>
                     </div>

@@ -1,15 +1,17 @@
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Для равномерного распределения карточек */
+    justify-content: space-around; /* Для равномерного распределения карточек */
+    gap: 20px; /* пространство между карточками */
 }
 
 .product-card {
     width: calc(20% - 20px); /* Для размещения 5 карточек в линию (20% ширины - 20px отступы) */
     margin-bottom: 20px;
-    border: 3px solid black; /* Обводка карточки */
+    border: 1px solid #e0e0e0; /* мягкая граница */
     padding: 20px;
     border-radius: 10px; /* Округление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* тень */
 
     display: flex;
     flex-direction: column;
@@ -18,28 +20,53 @@
 }
 
 .product-card img {
-    width: 200px;
+    width: 200px; /* изображение занимает всю ширину карточки */
     height: 250px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* тень для изображения */
 }
 
 .product-card button {
-    background-color: black;
+    background-color: #000;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 4px;
-    margin-top: 10px;
-    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 .product-card button:hover {
-    transform: scale(1.07);
+    background-color: #333;
+}
+
+.product-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.product-card p {
+    margin-bottom: 10px;
+    color: #666;
+    flex-grow: 1;
 }
 
 .films_title {
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-card .rating {
+    display: flex;
+    justify-content: center;
     margin-bottom: 10px;
 }
+
+.product-card .rating span {
+    color: gold; /* Цвет звезд */
+    font-size: 24px; /* Размер звезд */
+}
+
